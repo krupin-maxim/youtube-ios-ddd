@@ -18,4 +18,8 @@ target 'Youtube' do
     # Pods for testing
   end
 
+  target 'FrameworkForPlayground' do
+    inherit! :search_paths
+  end
+
 end
